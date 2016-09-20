@@ -1,3 +1,6 @@
+// Copyright (C) 2016, Jean-Pierre de la Croix
+// see LICENSE included with this software
+
 #include <string>
 
 namespace pololu {
