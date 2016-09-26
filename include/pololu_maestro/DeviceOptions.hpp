@@ -1,6 +1,9 @@
 // Copyright (C) 2016, Jean-Pierre de la Croix
 // see LICENSE included with this software
 
+#ifndef _POLOLU_MAESTRO_DEVICE_OPTIONS_HPP_
+#define _POLOLU_MAESTRO_DEVICE_OPTIONS_HPP_
+
 #include <string>
 
 namespace pololu {
@@ -33,3 +36,5 @@ private:
 };
 
 }
+
+#endif

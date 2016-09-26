@@ -24,7 +24,7 @@ MaestroDevice::MaestroDevice(DeviceOptions options)
 
 void MaestroDevice::connect() {
   // Open the Maestro's virtual COM port.
-  int file_descriptor_ = open(options_.getDeviceFile().c_str(), O_RDWR | O_NOCTTY);
+  file_descriptor_ = open(options_.getDeviceFile().c_str(), O_RDWR | O_NOCTTY);
   if (file_descriptor_ == -1) {
     throw_exception(options_.getDeviceFile() + ": ");
   }

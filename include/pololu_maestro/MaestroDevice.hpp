@@ -1,6 +1,9 @@
 // Copyright (C) 2016, Jean-Pierre de la Croix
 // see LICENSE included with this software
 
+#ifndef _POLOLU_MAESTRO_DEVICE_HPP_
+#define _POLOLU_MAESTRO_DEVICE_HPP_
+
 #include <pololu_maestro/DeviceOptions.hpp>
 
 #include <unordered_map>
@@ -42,3 +45,5 @@ private:
 };
 
 }
+
+#endif
