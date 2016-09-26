@@ -1,14 +1,14 @@
 // Copyright (C) 2016, Jean-Pierre de la Croix
 // see LICENSE included with this software
 
-#ifndef _SABRE_DRIVE_BY_WIRE_HPP_
-#define _SABRE_DRIVE_BY_WIRE_HPP_
+#ifndef _TRAXXAS_DRIVE_BY_WIRE_HPP_
+#define _TRAXXAS_DRIVE_BY_WIRE_HPP_
 
 #include <pololu_maestro/MaestroDevice.hpp>
 
 #include <memory>
 
-namespace sabre {
+namespace traxxas {
 
 class DriveByWire {
 
@@ -31,7 +31,7 @@ private:
   int throttle_target_;
   int steering_target_;
 
-  std::shared_ptr<pololu::MaestroDevice> sabre_device_ = nullptr;
+  std::shared_ptr<pololu::MaestroDevice> traxxas_device_ = nullptr;
 
 };
 

@@ -1,7 +1,7 @@
 // Copyright (C) 2016, Jean-Pierre de la Croix
 // see LICENSE included with this software
 
-#include <sabre/DriveByWire.hpp>
+#include <traxxas/DriveByWire.hpp>
 
 #include <SDL2/SDL.h>
 
@@ -10,7 +10,7 @@
 
 int main(int args, char **argv) {
 
-  sabre::DriveByWire drive_by_wire;
+  traxxas::DriveByWire drive_by_wire;
   drive_by_wire.connect();
 
   if (SDL_InitSubSystem(SDL_INIT_JOYSTICK | SDL_INIT_GAMECONTROLLER)) {
